@@ -1,12 +1,12 @@
 -- Create student table
 CREATE TABLE IF NOT EXISTS student (
-    id UUID,
+    id UUID, --Tipo de id aleatorio
     first_name TEXT,
     last_name TEXT,
     gender TEXT,
     gpa NUMERIC,
     age INT,
-    PRIMARY KEY (id)
+    PRIMARY KEY (id) -- puede ser una llave o varias llaves, tienen que ser únicas en la tabla
 );
 
 -- Create course table
